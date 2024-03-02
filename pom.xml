@@ -47,30 +47,7 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-		<repositories>
-  <repository>
-    <id>central</id>
-    <url>https://repo.maven.apache.org/maven2</url>
-  </repository>
-  <!-- Add other repositories if needed -->
-			<repository>
-        <id>remote-repo</id>
-        <url>https://path.to/your/remote/repository</url>
-    </repository>
-</repositories>
-
-	</dependencyManagement>
-
+	
 	<build>
 		<plugins>
 			<plugin>
