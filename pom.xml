@@ -57,6 +57,14 @@
 				<scope>import</scope>
 			</dependency>
 		</dependencies>
+		<repositories>
+  <repository>
+    <id>central</id>
+    <url>https://repo.maven.apache.org/maven2</url>
+  </repository>
+  <!-- Add other repositories if needed -->
+</repositories>
+
 	</dependencyManagement>
 
 	<build>
