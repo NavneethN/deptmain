@@ -63,6 +63,10 @@
     <url>https://repo.maven.apache.org/maven2</url>
   </repository>
   <!-- Add other repositories if needed -->
+			<repository>
+        <id>remote-repo</id>
+        <url>https://path.to/your/remote/repository</url>
+    </repository>
 </repositories>
 
 	</dependencyManagement>
